@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 public class UniversidadEjemplo {
     public static void main(String[] args) {
-        
+        System.out.println("Hola");
         try {
             //cargar driver
             Class.forName("org.mariadb.jdbc.Driver");
